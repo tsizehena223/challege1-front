@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.grey-blue {
+  color: hsl(234, 29%, 20%);
+}
+
+.grey-simple {
+  color: hsl(235, 18%, 26%);
+}
+
+.mb1 {
+  margin-bottom: 1rem;
+}
+
+.attribution {
+  display: none;
+}
+
+body {
+  background-color: hsl(235, 18%, 26%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 100%);
+  width: 45rem;
+  margin-top: 6rem;
+  border-radius: 25px;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+.right {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.right>h1 {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 2.3rem;
+  margin-bottom: 1.5rem;
+}
+
+ul {
+  list-style-type: none; 
+}
+
+ul li {
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+ul img {
+  margin-right: 1rem;
+}
+
+.input {
+  display: flex; 
+  flex-direction: column;
+}
+
+#email {
+  margin-top: 0.2rem;
+  padding: 0.7rem;
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 20rem;
+}
+
+#submit {
+  margin-top: 1rem;
+  padding: 0.7rem;
+  width: 21.5rem;
+  border-radius: 5px;
+  background-color: hsl(234, 29%, 20%);
+  color: hsl(0, 0%, 100%);
+}
+
+.left img {
+  width: 19rem;
+}
