@@ -9,6 +9,15 @@
   color: hsl(234, 29%, 20%);
 }
 
+.tomato {
+  color: hsl(4, 100%, 67%);
+}
+
+.red {
+  background-color: hsl(4, 100%, 67%);
+  color: red;
+}
+
 .grey-simple {
   color: hsl(235, 18%, 26%);
 }
@@ -92,4 +101,10 @@ ul img {
 
 .left img {
   width: 19rem;
+}
+
+#errorMessage {
+  display: none;
+  position: absolute;
+  margin-left: 13.6rem;
 }
